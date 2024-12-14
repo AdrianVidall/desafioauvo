@@ -7,6 +7,7 @@ export default class HomePage {
         this.page = page;
     }
 
+    //locators
     filter = () => this.page.locator('[data-test="product-sort-container"]');
     itemProduct = () => this.page.locator('[data-test="item-5-title-link"]');
     txtBackToProducts = () => this.page.locator('[data-test="back-to-products"]');

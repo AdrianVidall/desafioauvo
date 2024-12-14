@@ -10,10 +10,10 @@ export default defineConfig({
   use: {
     headless: false,
     launchOptions: {
-      slowMo: 300
+      slowMo: 300 //tempo de delay para o avanço do teste
     },
-    video: 'on',
-    screenshot: 'on',
+    video: 'on', //Gravar vídeo do teste
+    screenshot: 'on', //Tirar print do teste
     trace: 'on-first-retry',
   },
 
@@ -22,6 +22,5 @@ export default defineConfig({
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
-
   ],
 });

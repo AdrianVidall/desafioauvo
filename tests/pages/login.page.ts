@@ -7,15 +7,16 @@ export default class LoginPage {
         this.page = page;
     }
 
-    public async goto() {
-        await this.page.goto('https://www.saucedemo.com/');
-        await expect(await this.page.title()).toBe('Swag Labs')
-    }
-
+    //locators
     userLogin = () => this.page.locator('[data-test="username"]');
     passwordLogin = () => this.page.locator('[data-test="password"]');
     buttonLogin = () => this.page.locator('[data-test="login-button"]');
     txtHeader = () => this.page.locator('.header_secondary_container > span');
+
+    public async goto() {
+        await this.page.goto('https://www.saucedemo.com/');
+        await expect(await this.page.title()).toBe('Swag Labs')
+    }
 
     public async loginSuccessful() {
         await this.userLogin().fill('standard_user');

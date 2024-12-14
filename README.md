@@ -8,7 +8,7 @@ Abra o navegador, acesse a URL https://github.com/AdrianVidall/desafioauvo, cliq
 
 Após o clone do projeto, acesse o diretório recém clonado
 
-Dentro do diretório `desafioauvo/` você terá o sub-diretório `tests/`, e os arquivos `.gitignore` (arquivo oculto), `playwright.config.js`, `package-lock.json`, `package.json` e `README.md`. Dentro do sub-diretório `tests/` você terá o sub-diretório `pages/`.
+Dentro do diretório `desafioauvo/` você terá o sub-diretório `tests/`, e os arquivos `.gitignore`, `playwright.config.js`, `package-lock.json`, `package.json` e `README.md`. Dentro do sub-diretório `tests/` você terá o sub-diretório `pages/`.
 
 ## Instalação das dependências de desenvolvimento
 
